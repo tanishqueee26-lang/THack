@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>QuestCast Twitch Extension</title><link rel="stylesheet" href="extension.css"></head>
+<body>
+  <main class="shell">
+    <header><span class="mark">QC</span><div><b>QUESTCAST</b><small>COMMUNITY STORY PANEL</small></div><span id="connection">CONNECTING</span></header>
+    <section id="quest" class="card"><small>ACTIVE COMMUNITY QUEST</small><h1>Loading quest…</h1><p>Waiting for the channel's active chapter.</p></section>
+    <section class="card"><small>CHOOSE THE NEXT CHAPTER</small><div id="stories"><p>Loading community decisions…</p></div></section>
+    <section class="card"><small>QUEST COINS · ABILITIES</small><p id="wallet">Loading wallet…</p><div id="shop"></div></section>
+    <footer>Viewer identity is represented by Twitch's opaque extension ID.</footer>
+  </main>
+  <script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
+  <script src="extension.js"></script>
+</body></html>
